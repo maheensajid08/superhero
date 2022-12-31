@@ -1,0 +1,54 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  background-color: rgb(206, 196, 196);
+  padding: 2rem;
+  margin: 1rem;
+  /* border: 2px solid black; */
+  box-shadow: 5px 4px 4px rgb(78, 47, 47);
+}
+form .inputs{
+  width: 200px;
+  margin: .3rem 0rem;
+ 
+}
+form button{
+  background-color: blue;
+  color: aliceblue;
+  cursor: pointer;
+  padding: .3rem .6rem;
+  margin-top: .3rem;
+  border: none;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product{
+  display: flex;
+  /* grid-template-columns: 200px 200px 200px 200px; */
+  flex-direction: column;
+  background-color: rgb(189, 182, 203);
+  
+  margin: .3rem .4rem;
+  padding: 1.3rem;
+  box-shadow: 3px 4px 4px rgb(72, 62, 62);
+}
+.product img{
+  width: 150px;
+  height: 120px;
+}
+.product footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,173 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  .navbar1{
+        background-color: black;
+        width: 100vw;
+        height: 10vh;
+        
+        
+    }
+    
+     .navbar1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 8%;
+        padding-right: 8%;
+        background-color: rgb(185, 149, 149);
+        position: sticky;
+        top: 0;
+      
+    }
+    
+    
+    .navbar1 ul li{
+        display: inline-block;
+        list-style-type: none;
+        padding: 10px 10px;
+        font-weight: bold;
+        font-size: large;
+        
+    }
+    .navbar1 ul li a{
+        text-decoration: none;
+        color:black;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    .navbar1 ul li a:hover{
+        color :red;
+        transition: .4s;
+    
+    }
+    .btn{
+        background-color:red;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 13px 45px;
+        border-radius: 30px;
+        transition: .4s;
+        margin-right: 10px;
+        margin-left: 67px;
+        font-size: large;
+    }
+    .btn:hover{
+        transform: scale(1.2);
+        background-color: transparent;
+        border: 2px solid black;
+        cursor: pointer;
+        
+    }
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* align-items: center; */
+    }
+    
+    .herosimg{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40rem;
+        width: 100vw;
+        z-index: -1;
+    }
+    
+    .cards{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        padding: 1rem 5rem ;
+        gap: 2rem;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(247, 232, 232);
+        box-shadow: 5px 5px 5px;
+        justify-content: space-between;
+        border-radius: 1rem;
+    }
+    .cardcontent{
+        display: flex;
+        flex-direction: column;
+        padding: .7rem 1rem ;
+        width: 450px;
+    }
+    .cardimg{
+        display: flex;
+        align-items: center;
+    }
+    .name{
+        margin-left: 1rem;
+        cursor: pointer;
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Removebtn:hover{
+        transition: all;
+        transform: scale(1.1);
+        animation: reverse;
+    }
+    .btnread{
+        padding: .5rem 1rem;
+        background-color: rgb(160, 86, 73);
+        color: white;
+        cursor: pointer;
+        border: none;
+        box-shadow: 2px 2px 2px;
+        border-radius: .5rem;
+    }
+    .cardimg img{
+        display: flex;
+        flex-direction: column;
+        height: 7rem;
+        cursor: pointer;
+        border-radius: 50%;
+        width: 7rem;
+    }
+    .content{
+        padding: 0 rem;
+    }
+    .content p{
+        color: rgb(237, 78, 78);
+        margin: .2rem 0;
+    }
+    .footer{
+        background-color: rgb(4, 7, 7);
+        margin-top: 1rem;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+        border-radius: 0 0 1rem 1rem;
+        padding: .54rem 1rem ;  
+    }
+    .Removebtn button{
+        padding: .5rem 1rem;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        border: none;
+        box-shadow: 2px 2px 2px;
+        border-radius: .5rem;
+    }
+    .footer p{
+        color: rgb(199, 199, 199);
+    }
+   
+       
+  
+   
