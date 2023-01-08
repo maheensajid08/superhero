@@ -10,6 +10,6 @@ root.render(
   <React.StrictMode>
     <Heros/>
   </React.StrictMode>
-);
+)
 
 
